@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6"/>
+      <stop offset="100%" style="stop-color:#EC4899"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="560" fill="url(#g)"/>
+  <circle cx="680" cy="80" r="120" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="100" cy="480" r="160" fill="rgba(255,255,255,0.06)"/>
+  <rect x="60" y="60" width="680" height="380" rx="16" fill="rgba(255,255,255,0.12)"/>
+  <rect x="90" y="100" width="200" height="16" rx="8" fill="rgba(255,255,255,0.35)"/>
+  <rect x="90" y="140" width="320" height="12" rx="6" fill="rgba(255,255,255,0.2)"/>
+  <rect x="90" y="170" width="280" height="12" rx="6" fill="rgba(255,255,255,0.15)"/>
+  <rect x="90" y="220" width="620" height="180" rx="12" fill="rgba(255,255,255,0.1)"/>
+  <text x="400" y="520" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="600">Portfolio</text>
+</svg>

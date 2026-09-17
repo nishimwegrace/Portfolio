@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="800" viewBox="0 0 640 800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E1B4B"/>
+      <stop offset="100%" style="stop-color:#4C1D95"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="800" fill="url(#bg)"/>
+  <circle cx="520" cy="120" r="100" fill="rgba(129,140,248,0.25)"/>
+  <circle cx="80" cy="700" r="140" fill="rgba(167,139,250,0.2)"/>
+  <circle cx="320" cy="280" r="110" fill="#C4B5FD"/>
+  <ellipse cx="320" cy="560" rx="160" ry="200" fill="#C4B5FD"/>
+  <text x="320" y="760" text-anchor="middle" fill="rgba(255,255,255,0.85)" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Grace NISHIMWE</text>
+</svg>

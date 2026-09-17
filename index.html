@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grace | Full-Stack Web Developer</title>
+  <meta name="description" content="Grace is a Burundian Full-Stack Web Developer specializing in modern web applications, responsive websites, SEO, deployment and IT training.">
+  <meta name="author" content="Grace NISHIMWE">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.example.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Grace | Full-Stack Web Developer">
+  <meta property="og:description" content="Grace is a Burundian Full-Stack Web Developer specializing in modern web applications, responsive websites, SEO, deployment and IT training.">
+  <meta property="og:url" content="https://www.example.com/">
+  <meta property="og:image" content="https://www.example.com/images/profile.jpg">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Grace | Full-Stack Web Developer">
+  <meta name="twitter:description" content="Grace is a Burundian Full-Stack Web Developer specializing in modern web applications, responsive websites, SEO, deployment and IT training.">
+  <meta name="twitter:image" content="https://www.example.com/images/profile.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Grace NISHIMWE",
+    "jobTitle": "Full-Stack Web Developer",
+    "description": "Burundian Full-Stack Web Developer with 3+ years of experience building modern web applications, responsive websites, SEO and IT training.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "BI"
+    },
+    "url": "https://www.example.com/",
+    "sameAs": [
+      "https://www.linkedin.com/in/your-profile",
+      "https://github.com/your-username"
+    ],
+    "knowsAbout": [
+      "HTML5", "CSS3", "Tailwind CSS", "JavaScript", "PHP", "Eloquent ORM", "MySQL", "SEO", "Website Deployment"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- Navigation -->
+  <header class="site-header" id="site-header">
+    <nav class="navbar container" aria-label="Primary">
+      <a href="#home" class="logo" aria-label="Grace — Home">
+        <span class="logo-mark" aria-hidden="true">&lt;/&gt;</span>
+        <span class="logo-text">Grace</span>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+          <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+          <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+          <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+          <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+          <li><a href="#services" class="nav-link" data-section="services">Services</a></li>
+          <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light mode">
+            <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M21 14.5A8.5 8.5 0 1 1 9.5 3a7 7 0 0 0 11.5 11.5z"/>
+            </svg>
+            <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"/>
+              <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+            </svg>
+          </button>
+          <a href="#contact" class="btn btn-primary btn-sm">Let's Talk</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="hero-greeting">Hi, I'm Grace NISHIMWE <span aria-hidden="true">👋</span></p>
+          <h1 id="hero-title" class="hero-title">Full-Stack Web Developer</h1>
+          <p class="hero-intro">
+            I design and develop modern, functional and user-focused websites and web applications
+            that help businesses and organizations build a strong digital presence.
+          </p>
+          <ul class="hero-meta" aria-label="Key highlights">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              3+ Years Experience
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              Full-Stack Development
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+              SEO
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+              Web Deployment
+            </li>
+          </ul>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              View My Projects
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              Contact Me
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+          </div>
+          <p class="hero-location">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Based in Burundi <span aria-hidden="true">🇧🇮</span>
+          </p>
+        </div>
+
+        <div class="hero-visual reveal" data-delay="150">
+          <div class="hero-image-wrap">
+            <img
+              src="images/profile.jpg"
+              alt="Professional portrait of Grace NISHIMWE, Full-Stack Web Developer"
+              class="hero-image"
+              width="480"
+              height="600"
+            >
+            <div class="hero-words" aria-hidden="true">
+              <span>Code</span>
+              <span>Create</span>
+              <span>Build</span>
+              <span>Impact ♥</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="about-media reveal">
+          <div class="about-image-frame">
+            <img
+              src="images/profile.jpg"
+              alt="Grace NISHIMWE smiling in a professional setting"
+              width="400"
+              height="500"
+              loading="lazy"
+            >
+          </div>
+        </div>
+        <div class="about-content reveal" data-delay="100">
+          <p class="section-eyebrow">Who I am</p>
+          <h2 id="about-title" class="section-title">About Me</h2>
+          <div class="about-text">
+            <p>
+              I am Grace NISHIMWE, a Burundian Full-Stack Web Developer with more than 3 years of experience in web development.
+            </p>
+            <p>
+              I specialize in building modern, responsive and functional web applications using HTML, CSS, Tailwind CSS, JavaScript, PHP, Eloquent ORM and MySQL.
+            </p>
+            <p>
+              Throughout my experience, I have worked on different types of functional applications, including business management systems, portfolio websites, e-commerce platforms, content websites and poetry platforms.
+            </p>
+            <p>
+              In addition to web development, I have experience in SEO, website deployment and digital communication.
+            </p>
+            <p>
+              I also contribute to IT training and digital skills development, helping learners improve their knowledge and confidence in technology.
+            </p>
+          </div>
+          <a href="assets/Grace-NISHIMWE-CV.pdf" class="btn btn-primary" download title="Replace assets/Grace-NISHIMWE-CV.pdf with your real CV">
+            Download CV
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">What I work with</p>
+          <h2 id="skills-title" class="section-title">My Skills</h2>
+          <p class="section-lead">A practical toolkit for building, launching and improving modern web products.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h3 class="skill-title">Front-End</h3>
+            <p class="skill-desc">Clean interfaces and responsive layouts that feel polished on every screen.</p>
+            <ul class="skill-list">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Tailwind CSS</li>
+              <li>JavaScript</li>
+              <li>Responsive Design</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal" data-delay="80">
+            <div class="skill-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/><path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"/></svg>
+            </div>
+            <h3 class="skill-title">Back-End</h3>
+            <p class="skill-desc">Reliable application logic, data models and database-driven features.</p>
+            <ul class="skill-list">
+              <li>PHP</li>
+              <li>Eloquent ORM</li>
+              <li>MySQL</li>
+              <li>API Integration</li>
+              <li>Database Management</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal" data-delay="160">
+            <div class="skill-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/><path d="M11 8v6M8 11h6"/></svg>
+            </div>
+            <h3 class="skill-title">Web &amp; SEO</h3>
+            <p class="skill-desc">Better structure, discoverability and performance for real-world websites.</p>
+            <ul class="skill-list">
+              <li>SEO</li>
+              <li>On-page SEO</li>
+              <li>Meta Tags</li>
+              <li>Open Graph</li>
+              <li>Website Deployment</li>
+              <li>Website Optimization</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal" data-delay="240">
+            <div class="skill-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3 class="skill-title">Other Skills</h3>
+            <p class="skill-desc">Communication, teaching and problem-solving that support every project.</p>
+            <ul class="skill-list">
+              <li>Digital Communication</li>
+              <li>Media Management</li>
+              <li>IT Training</li>
+              <li>Problem Solving</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section experience" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Career path</p>
+          <h2 id="experience-title" class="section-title">My Experience</h2>
+          <p class="section-lead">Hands-on roles across development, communication and digital skills training.</p>
+        </div>
+
+        <ol class="timeline">
+          <li class="timeline-item reveal">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <h3 class="timeline-role">Full-Stack Web Developer</h3>
+              <p class="timeline-meta">3+ Years Experience</p>
+              <p class="timeline-desc">
+                Designed and developed multiple functional web applications for businesses, organizations, professionals and creative projects.
+              </p>
+            </div>
+          </li>
+          <li class="timeline-item reveal" data-delay="100">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <h3 class="timeline-role">Chief Media &amp; Communication Officer</h3>
+              <p class="timeline-meta">Centre de Rehabilitation Birashoboka de Ngozi — Burundi</p>
+              <p class="timeline-desc">
+                Responsible for media and communication activities, digital content creation, online communication and promotion of organizational activities.
+              </p>
+            </div>
+          </li>
+          <li class="timeline-item reveal" data-delay="200">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <h3 class="timeline-role">IT Trainer</h3>
+              <p class="timeline-meta">Centre de Rehabilitation Birashoboka de Ngozi — Burundi</p>
+              <p class="timeline-desc">
+                Providing computer training and supporting participants in developing their digital and IT skills.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section projects" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Selected work</p>
+          <h2 id="projects-title" class="section-title">My Projects</h2>
+          <p class="section-lead">Functional web solutions for businesses, professionals and creative platforms.</p>
+        </div>
+
+        <div class="project-filters reveal" role="tablist" aria-label="Filter projects">
+          <button type="button" class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button type="button" class="filter-btn" data-filter="web-apps" role="tab" aria-selected="false">Web Apps</button>
+          <button type="button" class="filter-btn" data-filter="business" role="tab" aria-selected="false">Business</button>
+          <button type="button" class="filter-btn" data-filter="ecommerce" role="tab" aria-selected="false">E-Commerce</button>
+          <button type="button" class="filter-btn" data-filter="portfolio" role="tab" aria-selected="false">Portfolio</button>
+          <button type="button" class="filter-btn" data-filter="creative" role="tab" aria-selected="false">Creative</button>
+        </div>
+
+        <div class="projects-grid" id="projects-grid">
+          <article class="project-card reveal" data-categories="web-apps business">
+            <div class="project-image">
+              <img src="images/project-1.jpg" alt="Preview of a business management web application interface" width="800" height="560" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Business Management Systems</h3>
+              <p class="project-desc">Web applications designed to help businesses manage their activities, users and data.</p>
+              <ul class="project-tech" aria-label="Technologies used">
+                <li>PHP</li>
+                <li>Eloquent</li>
+                <li>MySQL</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+              <div class="project-actions">
+                <a href="#" class="btn btn-primary btn-sm" aria-label="View Business Management Systems project (link placeholder)">View Project</a>
+                <a href="#" class="btn btn-ghost btn-sm" aria-label="View GitHub repository (link placeholder)">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-categories="web-apps ecommerce" data-delay="80">
+            <div class="project-image">
+              <img src="images/project-2.jpg" alt="Preview of an e-commerce website product listing layout" width="800" height="560" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">E-Commerce Websites</h3>
+              <p class="project-desc">Modern e-commerce platforms for product presentation, management and online interaction.</p>
+              <ul class="project-tech" aria-label="Technologies used">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>MySQL</li>
+              </ul>
+              <div class="project-actions">
+                <a href="https://equibridgecare.com/" class="btn btn-primary btn-sm" aria-label="View E-Commerce Websites project (link placeholder)">View Project</a>
+                <a href="#" class="btn btn-ghost btn-sm" aria-label="View GitHub repository (link placeholder)">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-categories="portfolio" data-delay="160">
+            <div class="project-image">
+              <img src="images/project-3.jpg" alt="Preview of a professional personal portfolio website" width="800" height="560" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Portfolio Websites</h3>
+              <p class="project-desc">Professional portfolio websites for individuals and professionals.</p>
+              <ul class="project-tech" aria-label="Technologies used">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+              <div class="project-actions">
+                <a href="#" class="btn btn-primary btn-sm" aria-label="View Portfolio Websites project (link placeholder)">View Project</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-categories="web-apps creative" data-delay="240">
+            <div class="project-image">
+              <img src="images/project-4.jpg" alt="Preview of a poetry and literary content website" width="800" height="560" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Poetry Websites</h3>
+              <p class="project-desc">Creative websites designed to publish and present poems and literary content.</p>
+              <ul class="project-tech" aria-label="Technologies used">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>MySQL</li>
+              </ul>
+              <div class="project-actions">
+                <a href="#" class="btn btn-primary btn-sm" aria-label="View Poetry Websites project (link placeholder)">View Project</a>
+                <a href="#" class="btn btn-ghost btn-sm" aria-label="View GitHub repository (link placeholder)">GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section services" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">How I can help</p>
+          <h2 id="services-title" class="section-title">My Services</h2>
+          <p class="section-lead">End-to-end support from interface design to deployment and training.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            </div>
+            <h3>Web Development</h3>
+            <p>I build modern, responsive and functional websites and web applications adapted to the needs of each project.</p>
+          </article>
+          <article class="service-card reveal" data-delay="60">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+            </div>
+            <h3>Front-End Development</h3>
+            <p>I create clean, responsive and user-friendly interfaces using HTML, CSS, Tailwind CSS and JavaScript.</p>
+          </article>
+          <article class="service-card reveal" data-delay="120">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM17 14v6M14 17h6"/></svg>
+            </div>
+            <h3>Back-End Development</h3>
+            <p>I develop backend systems, databases and application logic using PHP, Eloquent and MySQL.</p>
+          </article>
+          <article class="service-card reveal" data-delay="180">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+            </div>
+            <h3>SEO</h3>
+            <p>I optimize websites using SEO best practices to improve structure, discoverability and search engine visibility.</p>
+          </article>
+          <article class="service-card reveal" data-delay="240">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            </div>
+            <h3>Website Deployment</h3>
+            <p>I deploy websites and web applications and help configure hosting, domains and production environments.</p>
+          </article>
+          <article class="service-card reveal" data-delay="300">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            </div>
+            <h3>IT Training</h3>
+            <p>I provide practical computer and digital skills training for learners and beginners.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Work With Me -->
+    <section class="section why" id="why" aria-labelledby="why-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Value</p>
+          <h2 id="why-title" class="section-title">Why Work With Me</h2>
+          <p class="section-lead">Practical strengths that shape clear, usable and lasting digital solutions.</p>
+        </div>
+
+        <div class="why-grid">
+          <article class="why-card reveal">
+            <div class="why-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            </div>
+            <h3>3+ Years of Experience</h3>
+            <p>Practical experience delivering websites and functional applications for real needs.</p>
+          </article>
+          <article class="why-card reveal" data-delay="60">
+            <div class="why-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h3>Full-Stack Development</h3>
+            <p>Comfortable working across front-end interfaces and back-end systems.</p>
+          </article>
+          <article class="why-card reveal" data-delay="120">
+            <div class="why-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
+            </div>
+            <h3>Responsive Design</h3>
+            <p>Interfaces built to remain clear and usable on mobile, tablet and desktop.</p>
+          </article>
+          <article class="why-card reveal" data-delay="180">
+            <div class="why-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            </div>
+            <h3>SEO Awareness</h3>
+            <p>Attention to structure, metadata and discoverability from the start of a project.</p>
+          </article>
+          <article class="why-card reveal" data-delay="240">
+            <div class="why-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+            </div>
+            <h3>Functional Solutions</h3>
+            <p>Focus on useful features that support business, organization and creative goals.</p>
+          </article>
+          <article class="why-card reveal" data-delay="300">
+            <div class="why-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+            </div>
+            <h3>Continuous Learning</h3>
+            <p>Committed to improving skills and staying practical with modern web practices.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <p class="section-eyebrow">Get in touch</p>
+          <h2 id="contact-title" class="section-title">Let's Work Together</h2>
+          <p class="section-lead">
+            Have a web project, an idea for an application, or need help improving your online presence?
+            Let's discuss your project and find the right solution.
+          </p>
+
+          <ul class="contact-list">
+            <li>
+              <span class="contact-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </span>
+              <div>
+                <span class="contact-label">Email</span>
+                <a href="mailto:nishimwegrace45@gmail.com">nishimwegrace45@gmail.com</a>
+                <!-- <span class="placeholder-note">Replace with your email</span> -->
+              </div>
+            </li>
+            <li>
+              <span class="contact-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.81.36 1.6.68 2.35a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.75.32 1.54.55 2.35.68A2 2 0 0 1 22 16.92z"/></svg>
+              </span>
+              <div>
+                <span class="contact-label">Phone</span>
+                <a href="tel:+257000000000">+257 65969974</a>
+                <!-- <span class="placeholder-note">Replace with your phone number</span> -->
+              </div>
+            </li>
+            <li>
+              <span class="contact-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+              </span>
+              <div>
+                <span class="contact-label">WhatsApp</span>
+                <a href="https://wa.me/25765969974" target="_blank" rel="noopener noreferrer">WhatsApp chat</a>
+                <!-- <span class="placeholder-note">Replace with your WhatsApp number</span> -->
+              </div>
+            </li>
+            <li>
+              <span class="contact-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              </span>
+              <div>
+                <span class="contact-label">LinkedIn</span>
+                <a href="https://www.linkedin.com/in/nishimwegrace" target="_blank" rel="noopener noreferrer">linkedin.com/in/nishimwegrace</a>
+                <!-- <span class="placeholder-note">Replace with your LinkedIn URL</span> -->
+              </div>
+            </li>
+            <li>
+              <span class="contact-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </span>
+              <div>
+                <span class="contact-label">GitHub</span>
+                <a href="https://github.com/nishimwegrace" target="_blank" rel="noopener noreferrer">github.com/nishimwegrace</a>
+                <!-- <span class="placeholder-note">Replace with your GitHub URL</span> -->
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact-form-wrap reveal" data-delay="120">
+          <form class="contact-form" id="contact-form" novalidate>
+            <p class="form-note" id="form-status" role="status" aria-live="polite"></p>
+
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" autocomplete="name" required placeholder="Your full name">
+              <span class="field-error" id="name-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" required placeholder="you@example.com">
+              <span class="field-error" id="email-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required placeholder="Project inquiry">
+              <span class="field-error" id="subject-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+              <span class="field-error" id="message-error"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+            <p class="form-backend-note">
+              This form is ready for a PHP backend or email service. Client-side validation is active; connect your endpoint to send messages.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="logo">
+          <span class="logo-mark" aria-hidden="true">&lt;/&gt;</span>
+          <span class="logo-text">Grace</span>
+        </a>
+        <p class="footer-title">Full-Stack Web Developer</p>
+        <p class="footer-tagline">Building modern digital experiences with code, creativity and purpose.</p>
+      </div>
+
+      <div class="footer-social">
+        <p class="footer-label">Connect</p>
+        <ul class="social-links">
+          <li><a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn (placeholder)">LinkedIn</a></li>
+          <li><a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" aria-label="GitHub (placeholder)">GitHub</a></li>
+          <li><a href="mailto:your.email@example.com" aria-label="Email (placeholder)">Email</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-meta">
+        <p>&copy; <span id="current-year">2026</span> Grace. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button type="button" class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
